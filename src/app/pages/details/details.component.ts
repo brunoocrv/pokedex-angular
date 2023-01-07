@@ -22,7 +22,7 @@ export class DetailsComponent implements OnInit {
 	public isLoading: boolean = false;
 
 	ngOnInit(): void {
-		this.getPokemon;
+		this.getPokemon();
 	}
 
 	public getPokemon() {
